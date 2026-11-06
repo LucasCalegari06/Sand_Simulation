@@ -6,7 +6,7 @@ namespace Globals
 {
 	inline int targetFPS = 60;
     inline float sandMass = 1.0f;
-    inline float sandRadius = 2.0f;
+    inline float sandRadius = 3.0f;
     inline float sandCoefficientOfRestitution = 0.05f;
     inline float sandFrictionCoefficient = 0.4f;
     inline float sandStaticFricCoefficient = 13.0f;
