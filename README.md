@@ -4,7 +4,6 @@ A real-time 2D granular physics engine implemented in C++ and rendered using Ray
 
 ## Demo
 
-![Simulation Demo](assets/demo.gif)
 <p align="center">
   <img src="assets/demo.gif" alt="Simulation Demo" width="80%">
 </p>
