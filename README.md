@@ -36,8 +36,33 @@ A real-time 2D granular physics engine implemented in C++ and rendered using Ray
 - **Graphics:** [Raylib](https://www.raylib.com/)
 - **Build Tool:** GCC / Make
 
-## Build & Run
+## Getting Started
+
+### Prerequisites
+
+Ensure you have a C++17 compliant compiler and the **Raylib** library installed on your system:
+- **GCC / Clang** (with C++17 support)
+- **Raylib** (installed via package manager, Homebrew, or compiled from source)
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/LucasCalegari06/Sand_Simulation.git
+cd Sand_Simulation
+```
+
+### 2. Build
+
+Compile the project linking the Raylib library:
 
 ```bash
 g++ -std=c++17 main.cpp Sand.cpp Vector2D.cpp World.cpp -lraylib -o sand_simulation
+```
+
+### 3. Run
+
+Launch the executable:
+
+```bash
 ./sand_simulation
+```
